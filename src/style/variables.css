@@ -1,0 +1,16 @@
+:root {
+    /* colors */
+    --color-primary: #FFFFFF; 
+    --color-secondary: white; 
+    --color-primary_1:#7C74EE;
+    --color-primary_2: #39CABD;
+    --color-text-primary:#000000;
+    --color-text-dim:#6B6B6B;
+    --color-text-light-dim:#999999;
+
+    /* fonts */
+    --font-montserrat: 'Montserrat', Arial, sans-serif;
+    --font-serif: 'Merriweather', serif;
+    --font-mono: 'Fira Code', monospace;
+
+  }

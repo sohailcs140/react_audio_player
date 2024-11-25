@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: var(--font-montserrat);
+    background-color: var(--color-primary);
+    overflow: hidden;
+}
+
+/* For custom scrollbar styles */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color:transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(var(--color-primary_2), var(--color-primary_1)); /* Apply gradient */
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-primary_1)
+  }
+  
+
+  /* music player */
+.custom-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 0.25rem; /* h-1 equivalent */
+  background-color: #e5e7eb; /* Light gray for the track */
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.custom-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 1rem;  /* h-4 */
+  width: 0.5rem; /* w-2 */
+  background-color: transparent;
+  border-radius: 9999px;
+  border: 2px solid #7C74EE; /* Thumb border color */
+}
+
+.custom-slider::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 1rem;  /* h-4 */
+  width: 0.5rem; /* w-2 */
+  background-color: transparent;
+  border-radius: 9999px;
+  border: 2px solid #7C74EE; /* Thumb border color */
+}
+
+.custom-slider::-webkit-slider-runnable-track {
+  background: #7C74EE;
+  border-radius: 9999px;
+}
+
+.custom-slider:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(124, 116, 238, 0.5);
+}
